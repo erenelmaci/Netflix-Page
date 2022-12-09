@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Netflix Customer Survey</title>
+  </head>
+  <body>
+    <div class="bigform">
+      <h1 class="heading">
+        <img
+          class="netflixpng"
+          src="./968e99af90d7736c0056a1161b740e0c.png"
+          alt=""
+        />
+      </h1>
+      <p class="heading">
+        Thank you for signing up at Netflix. Tell us more about your self
+      </p>
+      <form action="opacity" class="opacity"></form>
+      <form action="" class="mainform">
+        <div>
+          <label for="name" class="labels">Name</label><br />
+          <input
+            class="inputs"
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            checked
+          />
+        </div>
+        <div>
+          <label for="age" class="labels">Age</label><br />
+          <input
+            class="inputs"
+            type="text"
+            name="age"
+            id="age"
+            placeholder="Age"
+            checked
+          />
+        </div>
+        <div>
+          <label for="email" class="labels">Email</label><br />
+          <input
+            class="inputs"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            checked
+          />
+        </div>
+        <div>
+          <label for="contenttype" class="labels">Content type</label><br />
+          <select class="inputs" name="content" id="content">
+            <option value="series">Series</option>
+          </select>
+        </div>
+        <div class="radio">
+          <div>
+            <label for="movtype">Movie type</label><br />
+            <input type="checkbox" id="comedy" name="comedy" />
+            <label for="comedy">Comedy</label><br />
+
+            <input type="checkbox" id="action" name="action" />
+            <label for="action">Action</label><br />
+
+            <input type="checkbox" id="romance" name="romance" />
+            <label for="romance">Romance</label>
+          </div>
+          <br />
+          <div>
+            <label for="gender">Gender</label><br />
+
+            <input type="radio" id="male" name="recomended" />
+            <label for="male">Male</label><br />
+
+            <input type="radio" id="female" name="recomended" />
+            <label for="female">Female</label><br />
+
+            <input type="radio" id="other" name="recomended" />
+            <label for="other">Other</label><br />
+          </div>
+        </div>
+        <div>
+          <label class="textare" for="feedb">Feed back</label><br />
+          <textarea
+            class="textareaa"
+            name="feedb"
+            id="fb"
+            cols="20"
+            rows="10"
+            placeholder="Any comment"
+          >
+          </textarea>
+        </div>
+        <div>
+          <input
+            class="button"
+            type="submit"
+            id="submit"
+            name="submit"
+            value="Submit"
+          />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

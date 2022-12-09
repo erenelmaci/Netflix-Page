@@ -40,8 +40,8 @@ textarea {
   margin-top: 10px;
   background-color: #DB202C;
   color: white;
-  border: 0;
-  box-shadow: 0;
+  /* border: 0; */
+  /* box-shadow: 0; */
   width: 135px;
   height: 37px;
   border-radius: 60px;
@@ -53,13 +53,15 @@ textarea {
 .radio {
   /* display: inline-block; */
   margin: 10px;
-  padding: 0;
+  /* padding: 0; */
 }
 textarea{
   text-align: left;
   margin-bottom: 5px;
   resize: none;
   padding-bottom: 5px;
+  width: 300px;
+  height: 100px;
 }
 .textare{
   display: inline-block;

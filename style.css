@@ -21,7 +21,7 @@ body {
   border-radius: 5px;
   margin: auto;
   padding: 15px 30px;
-  width: fit-content;
+  max-width: fit-content;
 }
 .labels {
   display: inline-block;

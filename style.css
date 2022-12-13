@@ -46,7 +46,7 @@ textarea {
   color: white;
   width: 135px;
   height: 37px;
-  border-radius: 60px;
+  border-radius: 50px;
 }
 .button:hover {
   opacity: 0.9;

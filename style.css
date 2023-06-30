@@ -5,11 +5,11 @@
 }
 body {
   color: white;
-  background-image: url(./TR-tr-20221206-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background-image: url(./image/TR-tr-20221206-popsignuptwoweeks-perspective_alpha_website_large.jpg);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-repeat: no-repeat;
   background-size: cover; /*!!!!!*/
-  height: 100vh;
+  height: 100%;
   
 }
 .heading {
@@ -39,7 +39,6 @@ textarea {
   width: 300px;
 }
 .button {
-  /* display: inline-block; */
   margin-left: 95px;
   margin-top: 10px;
   background-color: #db202c;
